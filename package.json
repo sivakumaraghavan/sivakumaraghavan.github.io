@@ -1,0 +1,35 @@
+{
+  "name": "myresume",
+  "version": "1.0.0",
+  "description": "Web based resume ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "grunt": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivakumaraghavan/MyResume.git"
+  },
+  "keywords": [
+    "Web",
+    "Resume",
+    "Education",
+    "Skills",
+    "Experience",
+    "Awards",
+    "Hobbies"
+  ],
+  "author": "Sivakumar G.R.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sivakumaraghavan/MyResume/issues"
+  },
+  "homepage": "https://github.com/sivakumaraghavan/MyResume#readme",
+  "devDependencies": {
+    "grunt": "^1.2.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-uglify": "^4.0.1"
+  }
+}
