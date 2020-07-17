@@ -21,11 +21,9 @@
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<!-- Theme style  -->
-	<!--<link rel="stylesheet" href="css/style.css">
-
-	<link rel="stylesheet" href="css/main.css">-->
 	<link rel="stylesheet" href="public/css/myresume.css">
-
+	
+	<!-- Font awesome -->
 	<script src="https://kit.fontawesome.com/a725fba02d.js" crossorigin="anonymous"></script>
 	<!-- Modernizr JS -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
@@ -35,13 +33,13 @@
 	<![endif]-->
 	</head>
 	<body>
-	<div id="colorlib-page">
+	<div id="page">
 		<div class="container-wrap">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
 		<aside id="colorlib-aside" role="complementary" class="border">
 			<div class="text-center">
 				<div class="author-img" style="background-image: url(public/images/profile.jpg);"></div>
-				<h2><a href="index.html">Sivakumar <i style="color:#f9667e" class="fas fa-chart-line" aria-hidden="true"></i> G.R</a></h2>
+				<h2><a href="index.html">Sivakumar <i class="fas fa-chess-king text-dark" aria-hidden="true"></i> G.R</a></h2>
 				<span class="position">
 					<h6 class="title">
 						<span></span>
@@ -60,7 +58,6 @@
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
 						<li><a href="#" data-nav-section="awards">Awards & Certifications</a></li>
 						<li><a href="#" data-nav-section="hobbies">Hobbies</a></li>
-						<!--<li><a href="#" data-nav-section="blog">Blog</a></li>-->
 						<li><a href="#" data-nav-section="quotes">Quotes</a></li>
 					</ul>
 				</div>
@@ -84,7 +81,8 @@
 								</div>
 								
 								<h2>Sivakumar G.R.</h2>
-								<h4>Full Stack Developer</h4>
+								<h4 class="mb-2">Full Stack Developer</h4>
+								<strong>6 years of experience</strong>
 								
 								<ul class="animate-box" data-animate-effect="fadeInRight">
 									<li><i class="fas fa-envelope"></i><a class="p-2" href="mailto:">siva.anaz@gmail.com</a></li>
@@ -128,9 +126,9 @@
 							<div class="services color-1">
 								<h3 class="text-primary">Web Development<span class="ml-2"><i class="fas fa-code"></i></span></h3>
 								<p class="mb-0">
-									<strong>A Chennaite</strong>  who
-									get excited for every "Hello World" written in new programming language. 
-									I always believe learning should be <strong>Funtastic</strong> and coding should be <strong>Entertaining.</strong>
+									Web development is always my favorite play ground.
+									Creating a valuable product is wonderful feel.
+									I believe learning advanced Javascript is more important learning new frameworks.
 								</p>
 							</div>
 						</div>
@@ -138,9 +136,9 @@
 							<div class="services color-3">
 								<h3 class="text-warning">API Development<span class="ml-2"><i class="fas fa-cogs"></i></span></h3>
 								<p class="mb-0">
-									<strong>A Chennaite</strong>  who
-									get excited for every "Hello World" written in new programming language. 
-									I always believe learning should be <strong>Funtastic</strong> and coding should be <strong>Entertaining.</strong>
+									APIs are the glue between your client side and backend.
+									Creating Test Driven Development (TDD) is key part of writing REST APIs.
+									Worked on WebAPI 2.0 and ExpressJS for creating APIs.
 								</p>
 							</div>
 						</div>
@@ -148,9 +146,8 @@
 							<div class="services color-4">
 								<h3 class="text-success">Knowledge Sharing <span class="ml-2"><i class="fas fa-chalkboard-teacher"></i></span></h3>
 								<p class="mb-0">
-									<strong>A Chennaite</strong>  who
-									get excited for every "Hello World" written in new programming language. 
-									I always believe learning should be <strong>Funtastic</strong> and coding should be <strong>Entertaining.</strong>
+									I always when I teach one, two will learn. Knowledge sharing is my key USP.
+									Sharing the knowledge across your peers not only enlight them it also gives confidence over that topic.
 								</p>
 							</div>
 						</div>
@@ -483,7 +480,7 @@
 								   		</div>
 
 										<div class="timeline-label">
-											<h2>Awaiting to fill this place</h2>
+											<h2>Awaiting to fill this</h2>
 									   </div>
 									</div>
 						   		</article>   
@@ -568,7 +565,7 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-12">
-							<span class="heading-meta animate-box" data-animate-effect="fadeInLeft">My Tag Line</span>
+							<span class="heading-meta animate-box" data-animate-effect="fadeInLeft">My Tag Lines</span>
 							<h2 class="colorlib-heading animate-box" data-animate-effect="fadeInRight">Quotes</h2>
 						</div>
 					</div>
@@ -596,11 +593,14 @@
 							</div>
 						</div>
 					</div>
+					<div class="p-4 text-center  animate-box" data-animate-effect="fadeInTop">
+						<a href="public/pdf/Sivakumar-Resume.pdf" target="_blank" download="Resume" class="btn btn-primary download">Download <span><i class="fas fa-cloud-download-alt"></i></span></a>
+					</div>
 				</div>
 			</section>
-		</div><!-- end:colorlib-main -->
+		</div>
 	</div><!-- end:container-wrap -->
-	</div><!-- end:colorlib-page -->
+	</div><!-- end:page -->
 
 	<!-- jQuery -->
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>

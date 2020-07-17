@@ -245,6 +245,10 @@ section {
     .education {
         padding-top: 60px;
     }
+}
+
+.download {
+    border-radius: 1.25em;
 }/* =======================================================
 *
 * 	Template Style
@@ -311,10 +315,11 @@ figure {
   color: #fff;
   background: #2c98f0; }
 
-#colorlib-page {
+#page {
   width: 100%;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+ }
 
 #colorlib-aside {
   padding-top: 2em;
