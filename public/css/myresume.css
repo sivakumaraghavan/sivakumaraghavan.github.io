@@ -854,12 +854,8 @@ body.offcanvas {
   color: #000; }
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
-  -webkit-opacity: .4;
-  -moz-opacity: .4;
-  opacity: .4;
-  -ms-filter: alpha(opacity=40);
-  filter: alpha(opacity=40);
-  font-size: 16px; }
+  font-size: 16px; 
+}
 
 .services {
   margin-bottom: 30px;
