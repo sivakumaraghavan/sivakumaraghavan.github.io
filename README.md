@@ -1,2 +1,2 @@
 # My Resume
-Interactive we based resume
+Interactive web based resume
