@@ -35,19 +35,14 @@ ul li {
 section {
     padding: 100px 20px;
 }
-
+ 
 .about {
     padding-top: 0px;
-}
-
-.education {
-    padding-top: 100px;
 }
 
 .skills {
     padding-top: 30px;
 }
-
 
 .home .header-info .promo span {
     background-color: #0bceaf;
