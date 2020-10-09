@@ -1,1 +1,8 @@
 node_modules
+public/css/myresume.min.css
+public/js/myresume.min.js
+js/main.js
+css/.DS_Store
+package-lock.json
+css/style.css
+css/main.css
