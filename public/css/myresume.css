@@ -349,6 +349,7 @@ figure figcaption {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  height: -webkit-fill-available;
 }
 
 @media screen and (max-width: 768px) {
